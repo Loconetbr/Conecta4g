@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Loconetbr/Conecta4g/main/config.json",
   "Sms": "",
@@ -34,6 +34,17 @@
     "SSLPort": "443",
     "USER": "",
     "PASS": ""
+    },
+  {
+   "Name": "Servidor BR2",
+   "TYPE": "premium",
+   "FLAG": "br.png",
+   "ServerIP": "br-uol.onehostapps.com",
+   "CheckUser": "",
+   "ServerPort": "80",
+   "SSLPort": "443",
+   "USER": "",
+   "PASS": ""
     }
   ],
   "Networks": [
