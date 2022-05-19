@@ -1,10 +1,10 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Loconetbr/Conecta4g/main/config.json",
   "Sms": "",
   "EmailFeedback": "apolossh@gmail.com",
-  "UrlContato": "https://t.me/apolo_vx",
+  "UrlContato": "https://api.whatsapp.com/send?phone=5598985501900&text=estou%20interessado%20como%20funciona%20",
   "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
   "CheckUser": "true",
   "Udp": [
