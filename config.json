@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Loconetbr/Conecta4g/main/config.json",
   "Sms": "",
@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "loucomundbr.ml",
-      "CheckUser": "http://191.233.30.59:445/checkUser",
+      "CheckUser": "http://191.233.30.59:6799/checkUser",
       "ServerPort": "443",
       "SSLPort": "443",
       "USER": "",
