@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Loconetbr/Conecta4g/main/config.json",
   "Sms": "",
@@ -29,7 +29,7 @@
    "TYPE": "premium",
    "FLAG": "br.png",
    "ServerIP": "loucomundbr.ml",
-   "CheckUser": "",
+   "CheckUser": "http://191.233.30.59:6799/checkUser",
    "ServerPort": "22",
    "SSLPort": "443",
    "USER": "",
@@ -65,7 +65,16 @@
       "TlsIP": "172.67.165.43",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Tlsws"
+      "Info": "Tlsws1.2"
+      },
+      "Name": "VIVO1",
+      "FLAG": "vivo",
+      "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "vigia.vivo.com.br",
+      "TlsIP": "104.18.6.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws1.3"
     }
   ]
 }
