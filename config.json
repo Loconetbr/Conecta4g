@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "ReleaseNotes": "Nova Atualização Disponível,vivo on: cloudfront todos dd",
   "UrlUpdate": "https://raw.githubusercontent.com/Loconetbr/Conecta4g/main/config.json",
   "Sms": "",
@@ -34,17 +34,28 @@
    "SSLPort": "443",
    "USER": "",
    "PASS": ""
-    }
+    },
+ {
+      "Name": "Servidor BR3 AZION",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "nati8h5pwo.map.azionedge.net",
+      "CheckUser": "http://191.233.30.59:6799/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+      }
   ],
   "Networks": [
     {
-      "Name": "🔴CLARO",
-      "FLAG": "claro",
-      "Payload": "GET ws://ipv4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "ipv4.icanhazip.com",
-      "TlsIP": "ipv4.icanhazip.com",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "Name": "🟣VIVO AZION",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "nati8h5pwo.map.azionedge.net",
+      "ProxyPort": "80",
       "Info": "Tlsws"
     },
     {
