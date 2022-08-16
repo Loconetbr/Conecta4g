@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.8",
+  "Version": "1.0.9",
   "ReleaseNotes": "Nova Atualização Disponível,vivo on: cloudfront todos dd",
   "UrlUpdate": "https://raw.githubusercontent.com/Loconetbr/Conecta4g/main/config.json",
   "Sms": "",
@@ -17,8 +17,8 @@
       "Name": "Servidor BR",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "br.clarointernetgratis.ml",
-      "CheckUser": "http://191.233.30.59:6799/checkUser",
+      "ServerIP": "d31tyy0aq5aaxb.cloudfront.net",
+      "CheckUser": "http://138.118.174.218:6799/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -49,13 +49,13 @@
   ],
   "Networks": [
     {
-      "Name": "🟣VIVO AZION",
-      "FLAG": "vivo",
+      "Name": "🔴CLARO ON",
+      "FLAG": "claro",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "nati8h5pwo.map.azionedge.net",
-      "ProxyPort": "80",
+      "SNI": "d3awytnmmfk53d.cloudfront.net",
+      "TlsIP": "d3awytnmmfk53d.cloudfront.net",
+      "ProxyIP": "d3awytnmmfk53d.cloudfront.net",
+      "ProxyPort": "443",
       "Info": "Proxy"
     },
     {
