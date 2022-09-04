@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.10",
+  "Version": "1.0.11",
   "ReleaseNotes": "Nova Atualização Disponível,VIVO E CLARO ON: CLOUDFRONT",
   "UrlUpdate": "https://raw.githubusercontent.com/Loconetbr/Conecta4g/main/config.json",
   "Sms": "",
@@ -40,12 +40,12 @@
     {
       "Name": "🔴CLARO ON",
       "FLAG": "claro",
-      "Payload": "GET ws://player-api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "player-api.new.livestream.com",
-      "TlsIP": "player-api.new.livestream.com",
-      "ProxyIP": "player-api.new.livestream.com",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "dnnsjdj5swfc3.cloudfront.net",
+      "TlsIP": "dnnsjdj5swfc3.cloudfront.net",
+      "ProxyIP": "dnnsjdj5swfc3.cloudfront.net",
       "ProxyPort": "443",
-      "Info": "Tlsws"
+      "Info": "Proxy"
     },
     {
       "Name": "🟣VIVO CLOUDFRONT",
