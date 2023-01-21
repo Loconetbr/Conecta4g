@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.13",
-  "ReleaseNotes": "(Nova Atualização Disponível,VIVO E CLARO ON)",
+  "Version": "1.0.14",
+  "ReleaseNotes": "( Nova Atualização Disponível,VIVO E CLARO ON )",
   "UrlUpdate": "https://raw.githubusercontent.com/Loconetbr/Conecta4g/main/config.json",
   "Sms": "",
   "EmailFeedback": "apolossh@gmail.com",
@@ -14,12 +14,12 @@
   ],
   "Servers": [
     {
-      "Name": "Servidor BR",
+      "Name": "Servidor SALTO/SP",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "clarointernetgratis.ml",
-      "CheckUser": "http://138.118.174.218:6799/checkUser",
-      "ServerPort": "22",
+      "CheckUser": "http://clarointernetgratis.ml:6799/checkUser",
+      "ServerPort": "80",
       "SSLPort": "443",
       "USER": "bolo",
       "PASS": "bolo"
@@ -29,30 +29,20 @@
     {
       "Name": "🔴CLARO ON",
       "FLAG": "claro",
-      "Payload": "GET wss://apps.dialmyapp.com HTTP/1.1[crlf]Host: [app_host][crlf]Origem: https://www.google.com , http://www.google.com [crlf]User-Agent: Googlebot/2.1 (+ http://www.google.com/bot.html)[crlf]Upgrade : WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-      "SNI": "apps.dialmyapp.com",
-      "TlsIP": "apps.dialmyapp.com",
-      "ProxyIP": "apps.dialmyapp.com",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🟣VIVO PROXY1",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Origem: https://www.google.com , http://www.google.com [crlf]User-Agent: Googlebot/2.1 (+ http://www.google.com/bot.html)[crlf]Upgrade : WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
+      "ProxyIP": "origin.api3.amxrest.net",
       "ProxyPort": "80",
-      "Info": "Proxy"
-    },
+      "Info": "Tlsws"
+  },
     {
-      "Name": "🟣VIVO DIRECT",
+      "Name": "🟣VIVO PROXY",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.6.80",
+      "ProxyIP": "vigia.vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
