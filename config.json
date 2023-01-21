@@ -17,13 +17,24 @@
       "Name": "Servidor SALTO/SP",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "clarointernetgratis.ml",
+      "ServerIP": "d31tyy0aq5aaxb.cloudfront.net",
       "CheckUser": "http://clarointernetgratis.ml:6799/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "bolo",
       "PASS": "bolo"
       }
+    {
+      "Name": "Servidor VIVO SALTO/SP",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "clarointernetgratis.ml",
+      "CheckUser": "http://clarointernetgratis.ml:6799/checkUser",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "bolo",
+      "PASS": "bolo"
+     }
   ],
   "Networks": [
     {
