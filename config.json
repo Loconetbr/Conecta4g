@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "( Nova Atualização Disponível,VIVO E CLARO ON )",
   "UrlUpdate": "https://raw.githubusercontent.com/Loconetbr/Conecta4g/main/config.json",
   "Sms": "",
@@ -60,12 +60,12 @@
       {
       "Name": "🟣VIVO TLS 1.3",
       "FLAG": "vivo",
-      "Payload": "GET wss://vigia.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "vigia.vivo.com.br",
-      "TlsIP": "vigia.vivo.com.br",
-      "ProxyIP": "vigia.vivo.com.br",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "support.deezer.com",
+      "ProxyPort": "",80
+      "Info": "Proxy"
     }
   ]
 }
