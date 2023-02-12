@@ -58,13 +58,13 @@
       "Info": "Proxy"
     },
       {
-      "Name": "🟣VIVO TLS 1.3",
+      "Name": "🟣VIVO TLS PROXY1",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "support.deezer.com",
-      "ProxyPort": "",80
+      "ProxyPort": "80",
       "Info": "Proxy"
     }
   ]
