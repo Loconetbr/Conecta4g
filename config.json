@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.7",
-  "ReleaseNotes": "( Nova Atualização Disponível,VIVO E CLARO Off )",
+  "Version": "1.0.8",
+  "ReleaseNotes": "( Nova Atualização Disponível,APENAS VIVO )",
   "UrlUpdate": "https://raw.githubusercontent.com/Loconetbr/Conecta4g/main/config.json",
   "Sms": "",
   "EmailFeedback": "emersonm18p@gmail.com",
@@ -25,7 +25,7 @@
       "PASS": "bolo"
       },
     {
-      "Name": "Servidor VIVO EASY",
+      "Name": "Servidor BR",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "clarointernetgratis.ml",
@@ -38,7 +38,7 @@
   ],
   "Networks": [
     {
-      "Name": "🔴CLARO OFF",
+      "Name": "🟣VIVO CLOUDFRONT",
       "FLAG": "claro",
       "Payload": "GET wss://[rotate=d31tyy0aq5aaxb.cloudfront.net]/ HTTP/1.1[crlf]Host: origin.api3.amxrest.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf]Referer: https://netfree080 [crlf][crlf]",
       "SNI": "",
@@ -50,7 +50,7 @@
     {
       "Name": "🟣VIVO EASY",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: 104.18.22.26[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket 2mlk[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vigia.vivo.com.br",
@@ -64,6 +64,16 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "support.deezer.com",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+      {
+      "Name": "🟣VIVO NORMAL 1",
+      "FLAG": "vivo",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: 104.18.22.26[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket 2mlk[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.23.26",
       "ProxyPort": "80",
       "Info": "Proxy"
     }
