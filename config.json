@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.8",
+  "Version": "1.0.9",
   "ReleaseNotes": "( Nova Atualização Disponível,APENAS VIVO )",
   "UrlUpdate": "https://raw.githubusercontent.com/Loconetbr/Conecta4g/main/config.json",
   "Sms": "",
@@ -28,8 +28,8 @@
       "Name": "Servidor BR",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "clarointernetgratis.ml",
-      "CheckUser": "http://clarointernetgratis.ml:6799/checkUser",
+      "ServerIP": "mundodigitalfree.shop",
+      "CheckUser": "http://mundodigitalfree.shop:6799/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "bolo",
